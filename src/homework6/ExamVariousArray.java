@@ -15,7 +15,7 @@ public class ExamVariousArray {
 			System.out.println("************************");
 			System.out.println("      배열 사용하기     ");
 			System.out.println("************************");
-			System.out.println("1. 1. 두번째로 큰 수 찾기");
+			System.out.println("1. 두번째로 큰 수 찾기");
 			System.out.println("2. 심사 점수 계산");
 			System.out.println("3. 학생 총점, 평균값 구하기");
 			System.out.println("4. 5층 아파트의 거주자 숫자 구하기");
@@ -26,10 +26,10 @@ public class ExamVariousArray {
 			if(!input.matches("^[0-9]+$")) { System.out.println("\n제대로 입력해주세요!"); continue; }
 			menu = Integer.parseInt(input);
 			switch(menu) {
-				case 1 : 
+				case 1 : new SecondMax();
 					break;
 				
-				case 2 : 
+				case 2 : new AvgScore();
 					break;
 					
 				case 3 : 
