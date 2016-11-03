@@ -32,13 +32,13 @@ public class ExamVariousArray {
 				case 2 : new AvgScore();
 					break;
 					
-				case 3 : 
+				case 3 : new StudentScore();
 					break;
 					
-				case 4 : 
+				case 4 : new AptPersonCount();
 					break;
 					
-				case 5 : 
+				case 5 : new OnlyNumber();
 					break;
 					
 				case 6 : 
