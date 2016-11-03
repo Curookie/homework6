@@ -30,9 +30,9 @@ public class StudentScore {
 			num[2][0]+=Double.parseDouble(score[2]);
 			i++;
 		}
-		if(num[0][0]==0) num[0][1]=0; else num[0][1]=num[0][0]/3.;
-		if(num[1][0]==0) num[1][1]=0; else num[1][1]=num[1][0]/3.;
-		if(num[2][0]==0) num[2][1]=0; else num[2][1]=num[2][0]/3.;
+		if(num[0][0]==0) num[0][1]=0; else num[0][1]=num[0][0]/5.;
+		if(num[1][0]==0) num[1][1]=0; else num[1][1]=num[1][0]/5.;
+		if(num[2][0]==0) num[2][1]=0; else num[2][1]=num[2][0]/5.;
 		
 		System.out.println("국어 총점은 "+String.format("%.0f",num[0][0])+"점이고, 평균은 "+String.format("%.1f", num[0][1])+" 입니다.");
 		System.out.println("영어 총점은 "+String.format("%.0f",num[1][0])+"점이고, 평균은 "+String.format("%.1f", num[1][1])+" 입니다.");

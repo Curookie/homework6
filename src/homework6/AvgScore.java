@@ -46,6 +46,6 @@ public class AvgScore {
 		if(sum-highn-lown==0) { System.out.println("가장 큰 점수와 가장 작은 점수를 제외한"); System.out.println("8개의 점수의 평균은 0 입니다."); return; }
 
 		System.out.println("가장 큰 점수와 가장 작은 점수를 제외한");
-		System.out.printf("8개의 점수의 평균은 %.2f 입니다.\n",(sum-highn-lown)/8);
+		System.out.printf("8개의 점수의 평균은 %.1f 입니다.\n",(sum-highn-lown)/8);
 	}
 }
